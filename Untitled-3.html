@@ -9,11 +9,14 @@
 <textarea id="hobbiess" cols="30" rows="10">Hi there, i like swimming,do sport,reading.</textarea>
 
 <script>
-    function difEl(ElParam){
-        window.alert(ElParam.value)
-        window.alert(ElParam.className)
+    function getValue(id){
+        var el=document.getElementById(id)
+        return el.value;
     }
-    
+    var firstNameId = "first-name"
+    var lastNameId = "last-name"
+    var value = getValue(firstNameId)
+    window.alert(value)
     var firstNameId = "first-name"
     var firstNameEl = document.getElementById(firstNameId)
     difEl(firstNameEl)
