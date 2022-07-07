@@ -9,54 +9,28 @@
 <textarea id="hobbiess" cols="30" rows="10">Hi there, i like swimming,do sport,reading.</textarea>
 
 <script>
-    var firstNameEl
-    var firstNameId
-
-    firstNameId = "first-name"
-    firstNameEl = document.getElementById(firstNameId)
-    window.alert(firstNameEl.value)
-    window.alert(firstNameEl.className)
-
-    var lastNameEl
-    var lastNameId
-
-    lastNameId = "last-name"
-    lastNameEl = document.getElementById(lastNameId)
-    window.alert(lastNameEl.value)
-
-    var selectId
-    var selectEl
-
-    selectId = "selectt"
-    selectEl = document.getElementById(selectId)
-    window.alert(selectEl.value)
-
-    var adressId
-    var adressEl
-
-    adressId = "address"
-    adressEl = document.getElementById(adressId)
-    window.alert(adressEl.value)
-
-    var hobbiesId
-    var hobbiesEl
-
-    hobbiesId = "hobbiess"
-    hobbiesEl = document.getElementById(hobbiesId)
-    window.alert(hobbiesEl.value)
-
-    firstNameEl.value = 'Xer'
-   adressEl.value = 'California'
+    function difEl(ElParam){
+        window.alert(ElParam.value)
+        window.alert(ElParam.className)
+    }
     
-   function fme()  {
-    console.log(firstNameEl.value)
-    console.log(lastNameEl.value)
-    console.log(adressEl.value)
-    console.log(hobbiesEl.value)
-
-   }
-  fme();
-
-
+    var firstNameId = "first-name"
+    var firstNameEl = document.getElementById(firstNameId)
+    difEl(firstNameEl)
+    
+    var lastNameId = "last-name"
+    var lastNameEl = document.getElementById(lastNameId)
+    difEl(lastNameEl)
+    
+    var selectId = "selectt"
+    var selectEl = document.getElementById(selectId)
+    difEl(selectEl)
+    
+    var adressId = "address"
+    var adressEl = document.getElementById(adressId)
+    
+    var hobbiesId = "hobbiess"
+    var hobbiesEl = document.getElementById(hobbiesId)
+    
 
 </script>
