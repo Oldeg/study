@@ -1,8 +1,13 @@
 
-function sumArray(array) {
-    if (!Array.isArray(array)) return 0
-   return array
-       .sort((a, b) => a - b)
-       .slice(1, array.length - 1)
-       .reduce((a, b) => a + b, 0)
-   }
+let browser = 'Opera';
+if (browser = 'Opera'){
+    alert( "You've got the Opera!" );
+}
+if (browser = 'Edge'|| 'Chrome'|| 'Firefox'|| 'Safari'){
+    alert('Okay we support these browsers too')
+} else{
+    alert('We hope that this page looks ok!')
+}
+
+    
+
