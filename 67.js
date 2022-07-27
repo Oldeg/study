@@ -1,0 +1,1 @@
+let yourArray = [1, 'string', true, null, 'ifjwf']
