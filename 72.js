@@ -1,5 +1,6 @@
-function htmlColorNames(arr) {
-    arr.splice(0,2,'DarkSalmon', 'BlanchedAlmond')
-    return arr;
+function forecast(arr) {
+    let newarr = arr.slice(2,4)
+  
+    return newarr;
   }
-  console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+  console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
