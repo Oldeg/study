@@ -9,4 +9,4 @@ function Bird(name) {
     if(canary.hasOwnProperty(property)) {
       ownProps.push(property);
     }
-  }
+  } 
