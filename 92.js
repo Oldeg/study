@@ -8,4 +8,4 @@ function Dog(name) {
    }else {
      return false;
    }
-  }      
+  }
