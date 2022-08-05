@@ -11,4 +11,4 @@ function Dog(name) {
       console.log("My name is " + this.name);
   
   }
-  };
+  }; 
