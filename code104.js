@@ -11,4 +11,4 @@ function updateLight(current) {
       break
       
   }
-}
+} 
