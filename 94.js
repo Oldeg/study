@@ -10,4 +10,4 @@ function Dog(name) {
     describe: function() {
       console.log("My name is " + this.name);
     }
-  };     
+  };      
