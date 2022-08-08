@@ -7,4 +7,4 @@ function twiceAsOld(d, s) {
     }else {
       return 0
     }
-  }  
+  }   
