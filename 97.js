@@ -24,4 +24,4 @@ Animal.prototype = {
     console.log("nom nom nom");
   }
 
-};   
+};    
