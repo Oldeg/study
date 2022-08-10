@@ -7,4 +7,4 @@ Animal.prototype = {
   }
 };
 let duck = Object.create(Animal.prototype); 
-let beagle = Object.create(Animal.prototype);       
+let beagle = Object.create(Animal.prototype);        
