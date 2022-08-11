@@ -10,4 +10,4 @@ Animal.prototype = {
 function Dog() { }
 Dog.prototype = Object.create(Animal.prototype);
 let beagle = new Dog();
-beagle.eat();   
+beagle.eat();    
