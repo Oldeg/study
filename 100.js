@@ -9,4 +9,4 @@ Bird.prototype.constructor = Bird;
 duck.constructor
 let beagle = new Dog();
 Dog.prototype.constructor = Dog;
-beagle.constructor  
+beagle.constructor   
