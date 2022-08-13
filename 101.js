@@ -9,4 +9,4 @@ Dog.prototype.bark = function() {
 }
 let beagle = new Dog();
 beagle.eat();
-beagle.bark();    
+beagle.bark();     
