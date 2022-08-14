@@ -9,4 +9,4 @@ let penguin = new Penguin();
 Penguin.prototype.fly = function() {
   return 'Alas, this is a flightless bird.'
 }
-console.log(penguin.fly());  
+console.log(penguin.fly());   
