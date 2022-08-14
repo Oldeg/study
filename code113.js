@@ -14,4 +14,4 @@ function rpsls(pl1,pl2){
         pl1 == 'lizard'&&pl2 == 'spock')
         {return 'Player 1 Won!'}
        return 'Player 2 Won!'
-    }    
+    }     
