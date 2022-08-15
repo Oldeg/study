@@ -14,4 +14,4 @@ let bird = {
     }
   }
   glideMixin(bird);
-  glideMixin(boat);  
+  glideMixin(boat);   
