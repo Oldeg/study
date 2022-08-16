@@ -3,4 +3,4 @@ function Bird() {
   this.getWeight = function (){
     return weight;
    }
-}     
+}      
