@@ -15,4 +15,4 @@ const tea4BlackTeamFCC = getTea(prepareBlackTea, 13);
 console.log(
   tea4GreenTeamFCC,
   tea4BlackTeamFCC
-);   
+);    
