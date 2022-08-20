@@ -19,4 +19,4 @@ function sumAll(arr) {
      return num;
    }
    
-   sumAll([1, 4]);  
+   sumAll([1, 4]);   
