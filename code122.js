@@ -3,4 +3,4 @@ function getSum( a,b ){
         max = Math.max(a, b);
     return (max - min + 1) * (min + max) / 2;
   
-  }     
+  }      
