@@ -3,4 +3,4 @@ const bubblesortOnce = function([h, ...t]) {
       if (h < v) [h, v] = [v, h];
       return [...acc, v];
     }, []).concat(h || []);
-  };
+  }; 
