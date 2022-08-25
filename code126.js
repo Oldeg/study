@@ -4,4 +4,4 @@ function findLowestInt(k, n = 1) {
       if (s1.split('').sort().join('') === s2.split('').sort().join('')) return n
       n++
     }
-  } 
+  }  
