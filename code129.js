@@ -4,4 +4,4 @@ function binaryPyramid(m,n){
      ans += parseInt(i.toString(2))
     }
       return ans.toString(2)
-    }   
+    }    
