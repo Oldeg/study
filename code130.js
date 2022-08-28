@@ -6,4 +6,4 @@ function maxMultiple(d, b){
      }
    }
     return res;
-  } 
+  }  
