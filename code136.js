@@ -1,1 +1,1 @@
-const testit = (a,b) => a | b; 
+const testit = (a,b) => a | b;
