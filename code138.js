@@ -6,4 +6,4 @@ function getSectionIdFromScroll(scrollY,sizes){
       if (sum-1>=scrollY) return i
     }
     return -1
-}     
+}      
