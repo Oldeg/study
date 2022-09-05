@@ -6,4 +6,4 @@ const stats = {
     min: -0.75,
     average: 35.85
   };
-  const half = ({max, min}) => {return (max+min) / 2} ;      
+  const half = ({max, min}) => {return (max+min) / 2} ;       
