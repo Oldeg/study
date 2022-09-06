@@ -4,4 +4,4 @@ function nbDig(n, d) {
           var square=(g*g+"").split("");
           square.forEach((s)=>s==d?res++:null)
         }return res;
-    }     
+    }      
